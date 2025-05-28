@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Inclusion Example</title>
+
+    <!-- Internal CSS via <style> tag -->
+    <style>
+        /* Body background color */
+        body {
+            background-color: #F0F8FF;
+        }
+
+        /* Header styles */
+        h2 {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+    </style>
+
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <!-- Inline CSS style for heading -->
+    <h1 style="color: red;">Welcome to Our Portal</h1>
+
+    <h2>This is an example of Internal and External CSS</h2>
+
+    <!-- Button with external CSS class -->
+    <button class="cta-button">Join Now</button>
+
+</body>
+</html>
